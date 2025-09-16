@@ -14,14 +14,14 @@ app.get('/health', (_req, res) => {
 
 
 const PRODUCTS = [
-  { id: 1, name: 'Wireless Headphones', category: 'Audio', price: 129.99, rating: 4.5, image: '' },
-  { id: 2, name: 'Smart Watch', category: 'Wearables', price: 199.99, rating: 4.2, image: '' },
-  { id: 3, name: 'Mechanical Keyboard', category: 'Accessories', price: 89.99, rating: 4.7, image: '' },
-  { id: 4, name: '4K Monitor', category: 'Displays', price: 349.0, rating: 4.4, image: '' },
-  { id: 5, name: 'USB-C Hub', category: 'Accessories', price: 39.99, rating: 4.1, image: '' },
-  { id: 6, name: 'Noise Cancelling Earbuds', category: 'Audio', price: 149.0, rating: 4.3, image: '' },
-  { id: 7, name: 'Portable SSD 1TB', category: 'Storage', price: 109.0, rating: 4.6, image: '' },
-  { id: 8, name: 'Gaming Mouse', category: 'Accessories', price: 59.99, rating: 4.4, image: '' },
+  { id: 1, name: 'Wireless Headphones', category: 'Audio', price: 99.99, rating: 4.2, image: '' },
+  { id: 2, name: 'Smart Watch', category: 'Wearables', price: 169.99, rating: 4.0, image: '' },
+  { id: 3, name: 'Mechanical Keyboard', category: 'Accessories', price: 69.99, rating: 4.5, image: '' },
+  { id: 4, name: '4K Monitor', category: 'Displays', price: 229.0, rating: 4.2, image: '' },
+  { id: 5, name: 'USB-C Hub', category: 'Accessories', price: 39.99, rating: 4.0, image: '' },
+  { id: 6, name: 'Noise Cancelling Earbuds', category: 'Audio', price: 109.99, rating: 4.2, image: '' },
+  { id: 7, name: 'Portable SSD 1TB', category: 'Storage', price: 99.99, rating: 4.5, image: '' },
+  { id: 8, name: 'Gaming Mouse', category: 'Accessories', price: 39.99, rating: 4.2, image: '' },
 ]
 
 const PEOPLE = Array.from({ length: 47 }).map((_, i) => ({
